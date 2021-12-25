@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\DFTCompany\\DatingAppp\\API\\API.csproj": {}
+    "D:\\DFTCompany\\DatingAppp\\api\\API.csproj": {}
   },
   "projects": {
-    "d:\\DFTCompany\\DatingAppp\\API\\API.csproj": {
+    "D:\\DFTCompany\\DatingAppp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\DFTCompany\\DatingAppp\\API\\API.csproj",
+        "projectUniqueName": "D:\\DFTCompany\\DatingAppp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\DFTCompany\\DatingAppp\\API\\API.csproj",
+        "projectPath": "D:\\DFTCompany\\DatingAppp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "d:\\DFTCompany\\DatingAppp\\API\\obj\\",
+        "outputPath": "D:\\DFTCompany\\DatingAppp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -24,6 +24,7 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +43,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.13, )"
