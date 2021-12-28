@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DFTCompany\\DatingAppp\\api\\API.csproj": {}
+    "D:\\DFTCompany\\DatingAppp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\DFTCompany\\DatingAppp\\api\\API.csproj": {
+    "D:\\DFTCompany\\DatingAppp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DFTCompany\\DatingAppp\\api\\API.csproj",
+        "projectUniqueName": "D:\\DFTCompany\\DatingAppp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\DFTCompany\\DatingAppp\\api\\API.csproj",
+        "projectPath": "D:\\DFTCompany\\DatingAppp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\DFTCompany\\DatingAppp\\api\\obj\\",
+        "outputPath": "D:\\DFTCompany\\DatingAppp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,9 +57,17 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[1.0.0-preview3-final, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.0, )"
             }
           },
           "imports": [
